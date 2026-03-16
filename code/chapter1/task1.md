@@ -28,7 +28,7 @@ EOF
 
 uv pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-cat <<EOF | tee  touch .env
+cat <<EOF | tee .env
 # Tavily API 配置
 TAVILY_API_KEY=your_tavily_api_key
 
